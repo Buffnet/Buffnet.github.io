@@ -1,0 +1,382 @@
+html {
+  font-size: 100%;
+}
+/* Шрифты*/
+@font-face {
+    font-family: "RalewayRegular";
+    src: url("../fonts/RalewayRegular/RalewayRegular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "RalewayBold";
+    src: url("../fonts/RalewayBold/RalewayBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "RalewaySemiBold";
+    src: url("../fonts/RalewaySemiBold/RalewaySemiBold.ttf") format("truetype");
+}
+
+
+.text-header{
+  font-size: 15px;
+  font-family: "RalewayRegular";
+  color: rgb(255, 255, 255);
+  height: 11px;
+  text-transform: uppercase;
+}
+.text-header:hover{
+  font-size: 15px;
+  font-family: "RalewayRegular";
+  color: rgb(201, 167, 80);
+  height: 11px;
+  text-transform: uppercase;
+}
+.text-header-border{
+  border-bottom: 5px solid;
+  border-bottom-color: #222;
+}
+.text-header-border:hover{
+  border-bottom: 5px solid;
+  border-bottom-color: rgb(201, 167, 80);
+}
+.tizertext h1{
+    font-family: "RalewaySemiBold";
+}
+.font-my-black{
+    font-family: "RalewayBold";
+}
+.font-my-white{
+    font-family: "RalewayBold";
+    color:white;
+}
+
+.color-olo h5{
+    font-family: "RalewayBold";
+    font-size: 1.75em;
+}
+.color-olo h4{
+    font-family: "RalewaySemiBold";
+    font-size: 1.5em;
+}
+.color-olo h3{
+    font-family: "RalewayRegular";
+    font-size: 1em;
+    color: rgb(150, 150, 150);
+}
+
+.feedback-img-under h1{
+    font-size: 1.3em;
+    text-transform: uppercase;
+    font-family: "RalewayBold";
+    color: white;
+}
+.feedback-img-under h2{
+    font-size: 0.88em;
+    font-family: "RalewayRegular";
+    color: white;
+}
+
+.feedback-main h2{
+  font-size: 1.6em;
+  font-family: "RalewaySemiBold";
+  color: rgb(201, 167, 80);
+  line-height: 1.2;
+  
+}
+.feedback-main h3{
+  font-size:  1.3em;
+  font-family: "RalewayRegular";
+  color: white;
+  line-height: 1.2;
+  
+}
+/* Шрифты все*/
+.navbar-brand{
+    float: right;
+}
+.nav-position{
+    
+}
+.fluid-bg {
+  background: url(../img/tizer-bg1.png)100% 100% no-repeat;
+    background-size: cover;
+    
+}
+.logo {
+    text-align: center;
+    margin-top: 2%;
+    
+}
+.tizertext {
+    text-align: center;
+    
+    
+}
+.tizertext h1{
+    font-size: 2em;
+    margin: 4% 0 3% 0;
+}
+.tizertext col-xs-12 h1{
+    font-size: 1.5em;
+}
+
+.btn{
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #c9a750;
+    font: 18px/18px Arial, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 40px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.btn:hover{
+    box-shadow: 0 0 40px #c9a750; color: #fff;
+    border-radius: 40px;
+    border: none;
+}
+.btn:focus{
+    outline: 0;
+    border: 0;
+    color: #fff;
+}
+.goodcolor:after{
+    content: '';
+    display: block;
+    margin: 0 auto;
+    height: 2px;
+    width: 15%;
+    background: #c9a750;
+    margin-top: 6%;
+}
+#second{
+    text-align:center;
+    background-color:#fff5f3;
+}
+.bg-feedback{
+    background: url(../img/tester-big.jpg) 100% 100% no-repeat;;
+    background-size: cover;
+    
+}
+#search{
+    background-color: #393738;
+}
+.dash{
+    margin-bottom: 20px;
+    color: #a8a6a6;
+}
+.logo-uslugi{
+    margin: 1% 0 2% 0;
+}
+.hei-all{
+    height: 275px;
+}
+.feed{
+    margin: 1% 0 2.3% 0;
+}
+.tizer{  
+    height: 625px;
+    margin-top:-20px;
+    
+    padding-top: 10px; 
+}
+.first-info{
+    border: 1px dashed #c9a750;
+    padding: 15px 30px 15px 30px;
+    
+}
+.info-text h4{
+    padding-top: 1%;
+}
+.info-all{
+    height:  38px;
+}
+.img-feed{
+    float: left;
+    width: 30px;
+    text-align: center;
+    margin-right: 25px;
+}
+.a1st{
+    margin-left: 30px; text-decoration: underline; color: #c9a750;
+} 
+.a1st:hover{
+    color: #c9a750;
+}
+.control-group{
+    text-align: center;
+    
+}
+.footer-text span{
+    color:#393738;
+}
+.form-form{
+    padding: 20px 30px;
+    border-radius: 40px;
+}
+.controls{
+    /*width: 50%;*/
+    display: inline-block;
+    margin-bottom: 3%;
+    
+}
+
+.modal-bg{
+    background-color: rgb(57, 55, 56);
+    border-radius: 15px;
+}
+.controls input{
+    background-color: rgb(57, 55, 56);
+    color: color: rgb(129, 127, 126);
+    border-color: rgb(201, 167, 80);
+}
+.art{
+    width: 100%;
+}
+.modal-text{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.modal-text h4{
+    font-size: 1.5em;
+  font-family: "RalewaySemiBold";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+
+
+#owl-demo .item{
+      margin: 3px;
+    }
+#owl-demo .item img{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+.control-hr{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.2;
+    width: 70%;
+}
+.img-after img{
+    margin: 1%;
+}
+.after-form{
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.text-after{
+    font-size: 28px;
+  font-family: "Tahoma";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+}
+.btn-form{
+    padding: 15px 25px;
+}
+.bg-footer{
+    background: #282828;
+    font-size: 20px;
+    font-family: "RalewayRegular";
+    padding: 1% 0;
+}
+.arrow{
+    margin-top: 80%;
+}
+.footer-text h4{
+    color: white;
+}
+.item img:hover{
+    opacity: 0.5;
+}
+.tel-icon{
+    float: left;
+    margin-right: 5px;
+}
+.tel-size{
+    width: 235px;
+}
+.slider{
+    padding-top: 8px;
+}
+.padd-cont1{
+    padding-bottom: 40px;
+}
+.padd-2{
+    padding-top: 35px;
+    
+}
+.padd-3{
+    padding-top: 20px;
+}
+
+/*Линии*/
+@media (min-width: 960px){
+.nashi:before {
+    float:left;
+    content: '';
+    display: block;
+    margin-left: 15%;
+    height: 2px;
+    width: 170px;
+    background: #c9a750;
+    margin-top: 1%;
+}
+.nashi:after{
+    float:right;
+    content: '';
+    display: block;
+    margin-right: 15%;
+    height: 2px;
+    width: 170px;
+    background: #c9a750;
+    margin-top: 1%;
+}
+}
+@media (max-width: 960px){
+.arrow{
+    margin-top: 230%;
+    height: 10%;
+}
+}
+.navbar-brand {
+    font-size: 13px !important;
+}
+@media (max-width: 749px){
+    .tel-icon{
+        visibility: hidden;
+        width: 1px;
+    }
+    .telephone1{
+        width: 245px;
+    }
+    .tizertext h1{
+    font-size: 1.3em:
+}
+    .btn{
+        margin: 5% 0;
+    }
+    .feed{
+        padding-bottom: 2%;
+    }
+    .for-mob{
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+    }
+    .feedback-main h2{
+        font-size: 1.2em;
+    }
+    .feedback-main h3{
+        font-size: 1em;
+    }
+    .arrow{
+    margin-top: 750%;
+    height: 10%;
+}
+}
